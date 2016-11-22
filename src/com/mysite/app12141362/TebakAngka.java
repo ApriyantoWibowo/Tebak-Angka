@@ -38,3 +38,8 @@ public class TebakAngka {
                     
                     for(Tebak=0;Tebak<=5;Tebak++){
                         if(Tebak==5){
+                            System.out.println("GAMEOVER! Anda Gagal");
+                            GameOver++;
+                        }
+                        else{  
+                            System.out.println("Tebakan Anda ? ");
