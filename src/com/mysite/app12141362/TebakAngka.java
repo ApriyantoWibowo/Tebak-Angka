@@ -13,4 +13,9 @@ public class TebakAngka {
         Scanner input = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
         Random angkaRandom = new Random();
-        
+        String cariX;
+        do{
+            System.out.println("Masukkan Nama anda kemudian tekan enter,atau tekan 'x' untuk keluar = ");
+            cariX=input.nextLine();
+            namaPemain.add(cariX);
+            
