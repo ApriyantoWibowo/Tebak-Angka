@@ -43,3 +43,9 @@ public class TebakAngka {
                         }
                         else{  
                             System.out.println("Tebakan Anda ? ");
+                            int Tebakan=input2.nextInt();
+                            int Kurang=4-Tebak;
+                            if(Tebakan==AngkaAcak){
+                                
+                                if(Tebak==0){
+                                    NilaiTebak=Level*100;
