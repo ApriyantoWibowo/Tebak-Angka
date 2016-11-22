@@ -62,3 +62,9 @@ public class TebakAngka {
                                 else{
                                     NilaiTebak=0;
                                 }
+                                
+                                int InTebak=Tebak+1;
+                                System.out.println("Selamat Anda berhasil menebak Angka dalam " + InTebak + " kali tebakan. Skor anda adalah " + NilaiTebak);
+                                break;
+
+                            }
