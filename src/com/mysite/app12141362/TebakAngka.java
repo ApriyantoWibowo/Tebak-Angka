@@ -80,3 +80,10 @@ public class TebakAngka {
                         }
                     }
                     
+                    if(GameOver>0){
+                        break;
+                    }
+                    
+                    if(Level==5){
+                        break;
+                    }
