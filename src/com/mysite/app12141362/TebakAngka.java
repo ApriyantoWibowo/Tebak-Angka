@@ -111,3 +111,9 @@ public class TebakAngka {
         System.out.println("----------------------------------------------------");
         System.out.println("SKOR AKHIR");
         int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(namaPemain.get(l) + " : " + skorPemain.get(l));
+        }
+    }
+    
+}
