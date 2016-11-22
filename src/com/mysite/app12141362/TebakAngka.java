@@ -23,3 +23,8 @@ public class TebakAngka {
             int akumulasi[]= new int[6];
             int NilaiTebak=0;
             
+            if(!("x").equals(cariX)){  
+                String nextLevel;
+                int Level=1;
+                do{
+                    int Tebak, Up;
