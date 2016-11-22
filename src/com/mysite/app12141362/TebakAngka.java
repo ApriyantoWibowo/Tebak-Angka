@@ -49,3 +49,10 @@ public class TebakAngka {
                                 
                                 if(Tebak==0){
                                     NilaiTebak=Level*100;
+                                }
+                                else if(Tebak==1){
+                                    NilaiTebak=Level*70;
+                                }
+                                else if(Tebak==2){
+                                    NilaiTebak=Level*50;
+                                }
