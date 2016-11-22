@@ -87,3 +87,12 @@ public class TebakAngka {
                     if(Level==5){
                         break;
                     }
+                    else{
+                    akumulasi[NilaiX]=NilaiTebak;
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                    nextLevel=input.nextLine();
+                    Level++;
+                    
+                    }
+                   
+                }
