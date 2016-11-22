@@ -28,3 +28,8 @@ public class TebakAngka {
                 int Level=1;
                 do{
                     int Tebak, Up;
+                    System.out.println("# Level " + Level);
+                    System.out.println("Selamat datang " + cariX);
+                    int NilaiX=Level-1;    
+                    Up=Level*100;
+                    System.out.println("Silahkan tebak angka antara 1 s/d " + Up);
