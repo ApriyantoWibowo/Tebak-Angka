@@ -106,3 +106,8 @@ public class TebakAngka {
             skorPemain.add(Nilai); 
             
         }        
+        while(!"x".equals(cariX)); 
+        int jumPemain=namaPemain.size();
+        System.out.println("----------------------------------------------------");
+        System.out.println("SKOR AKHIR");
+        int l;
