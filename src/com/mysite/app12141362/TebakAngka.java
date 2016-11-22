@@ -33,3 +33,8 @@ public class TebakAngka {
                     int NilaiX=Level-1;    
                     Up=Level*100;
                     System.out.println("Silahkan tebak angka antara 1 s/d " + Up);
+                    System.out.println("Anda mempunyai kesempatan menebak 5 kali");
+                    int AngkaAcak=angkaRandom.nextInt(Up);
+                    
+                    for(Tebak=0;Tebak<=5;Tebak++){
+                        if(Tebak==5){
