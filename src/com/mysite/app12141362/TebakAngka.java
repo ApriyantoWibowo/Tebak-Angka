@@ -68,3 +68,15 @@ public class TebakAngka {
                                 break;
 
                             }
+                            else{ 
+                                if(Tebakan>AngkaAcak){
+                                    System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
+                                }
+                                else{
+
+                                    System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
+                                }
+                            }
+                        }
+                    }
+                    
