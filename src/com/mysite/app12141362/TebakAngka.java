@@ -96,3 +96,13 @@ public class TebakAngka {
                     }
                    
                 }
+                while(!"exit".equals(nextLevel));
+              
+            } 
+            
+            for(int n1=0; n1<5; n1++){ 
+                Nilai =Nilai +akumulasi[n1];  
+            }
+            skorPemain.add(Nilai); 
+            
+        }        
