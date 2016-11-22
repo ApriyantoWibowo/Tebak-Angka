@@ -18,4 +18,8 @@ public class TebakAngka {
             System.out.println("Masukkan Nama anda kemudian tekan enter,atau tekan 'x' untuk keluar = ");
             cariX=input.nextLine();
             namaPemain.add(cariX);
+            int Nilai = 0;
+            int GameOver=0;
+            int akumulasi[]= new int[6];
+            int NilaiTebak=0;
             
